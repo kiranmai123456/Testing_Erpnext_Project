@@ -1,0 +1,81 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.12.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "f84f82c7d78c8077ad1524c3cb2bf7fd52efe024",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "15.11.0"
+    },
+    "pdf_on_submit": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e3953c0f5ce5b245be5d3b259403c7569398d7a3",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "15.0.0"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "eb5a77e706b9b6b75fe50d858932b1b6afc37007",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "16.0.0-dev"
+    },
+    "india_compliance": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "7e4f238c10be9d1e7124fc520428c02dc72cda94",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "15.5.0"
+    },
+    "frappe_whatsapp": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "780f635f94f5b05274f24716a2b06a72c7560527",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.2"
+    },
+    "hilltop": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e730a40b936f19a332a16fc7f3d902e8d7678d09",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    },
+    "hilltop_custom": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4a0ced4a035d7f98569a529550f94008e182f33c",
+            "branch": "recovery_branch"
+        },
+        "required": [],
+        "idx": 11,
+        "version": "0.0.1"
+    }
+}
