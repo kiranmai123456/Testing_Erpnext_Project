@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-05 14:46:45.603177",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_h2u7",
+  "fname",
+  "lname",
+  "fullname",
+  "integer",
+  "add_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_h2u7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fname",
+   "fieldtype": "Data",
+   "label": "F Name"
+  },
+  {
+   "fieldname": "lname",
+   "fieldtype": "Data",
+   "label": "L Name"
+  },
+  {
+   "fieldname": "integer",
+   "fieldtype": "Int",
+   "label": "Integer Field "
+  },
+  {
+   "fieldname": "add_date",
+   "fieldtype": "Date",
+   "label": "Add Date"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-05 14:54:46.072112",
+ "modified_by": "Administrator",
+ "module": "hilltop_custom",
+ "name": "Hilltop",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

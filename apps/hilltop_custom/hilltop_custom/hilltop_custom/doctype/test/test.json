@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "StudentTest-.####",
+ "creation": "2024-01-09 11:44:34.639467",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_dmj3",
+  "fname",
+  "lname",
+  "age",
+  "branch",
+  "button"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_dmj3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fname",
+   "fieldtype": "Data",
+   "label": "F Name"
+  },
+  {
+   "fieldname": "lname",
+   "fieldtype": "Data",
+   "label": "L Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-13 13:43:01.489498",
+ "modified_by": "Administrator",
+ "module": "hilltop_custom",
+ "name": "test",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Test Role",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

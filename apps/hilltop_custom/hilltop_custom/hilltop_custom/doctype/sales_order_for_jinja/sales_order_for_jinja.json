@@ -1,0 +1,251 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Sales Order-.#####",
+ "creation": "2024-01-08 10:31:31.156763",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_pjow",
+  "head",
+  "address",
+  "gstin",
+  "state",
+  "code",
+  "cin",
+  "mail",
+  "ship_to",
+  "address_consignee",
+  "gstin_consignee",
+  "state_consignee",
+  "code_consignee",
+  "buyer",
+  "address_buyer",
+  "gstin_buyer",
+  "state_buyer",
+  "code_buyer",
+  "voucher",
+  "order_no",
+  "dispatched_through",
+  "dated",
+  "payment_mode",
+  "others",
+  "destination",
+  "terms_of_delivery",
+  "amount_words",
+  "company_pan",
+  "sl",
+  "description_of_goods",
+  "hsn",
+  "qty",
+  "rate",
+  "per",
+  "igst"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_pjow",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "head",
+   "fieldtype": "Data",
+   "label": "Head"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Head Address "
+  },
+  {
+   "fieldname": "gstin",
+   "fieldtype": "Data",
+   "label": "GSTIN/UIN"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State Name "
+  },
+  {
+   "fieldname": "cin",
+   "fieldtype": "Data",
+   "label": "CIN"
+  },
+  {
+   "fieldname": "mail",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  },
+  {
+   "fieldname": "ship_to",
+   "fieldtype": "Data",
+   "label": "Consignee"
+  },
+  {
+   "fieldname": "address_consignee",
+   "fieldtype": "Data",
+   "label": "Consignee Address"
+  },
+  {
+   "fieldname": "gstin_consignee",
+   "fieldtype": "Data",
+   "label": "GSTIN/UIN of Consignee"
+  },
+  {
+   "fieldname": "state_consignee",
+   "fieldtype": "Data",
+   "label": "State Name of Consignee"
+  },
+  {
+   "fieldname": "code_consignee",
+   "fieldtype": "Int",
+   "label": "Code of Consignee"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "address_buyer",
+   "fieldtype": "Data",
+   "label": "Buyer Address"
+  },
+  {
+   "fieldname": "gstin_buyer",
+   "fieldtype": "Data",
+   "label": "GSTIN/UIN of Buyer"
+  },
+  {
+   "fieldname": "state_buyer",
+   "fieldtype": "Data",
+   "label": "State Name of Buyer"
+  },
+  {
+   "fieldname": "code_buyer",
+   "fieldtype": "Int",
+   "label": "Code of Buyer"
+  },
+  {
+   "fieldname": "voucher",
+   "fieldtype": "Int",
+   "label": "Voucher No"
+  },
+  {
+   "fieldname": "order_no",
+   "fieldtype": "Int",
+   "label": "Buyer's Ref./Order No"
+  },
+  {
+   "fieldname": "dispatched_through",
+   "fieldtype": "Data",
+   "label": "Dispatched through"
+  },
+  {
+   "fieldname": "dated",
+   "fieldtype": "Date",
+   "label": "Dated"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Data",
+   "label": "Mode/Terms of Payment"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "label": "Other References"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "label": "Destination"
+  },
+  {
+   "fieldname": "terms_of_delivery",
+   "fieldtype": "Data",
+   "label": "Terms of Delivery"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Int",
+   "label": "Code "
+  },
+  {
+   "fieldname": "amount_words",
+   "fieldtype": "Data",
+   "label": "Amount Chargeable (in words )"
+  },
+  {
+   "fieldname": "company_pan",
+   "fieldtype": "Data",
+   "label": "Company's PAN"
+  },
+  {
+   "fieldname": "sl",
+   "fieldtype": "Int",
+   "label": "Sl No"
+  },
+  {
+   "fieldname": "description_of_goods",
+   "fieldtype": "Data",
+   "label": "Description of Goods"
+  },
+  {
+   "fieldname": "hsn",
+   "fieldtype": "Int",
+   "label": "HSN/SAC"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "label": "Rate"
+  },
+  {
+   "fieldname": "per",
+   "fieldtype": "Data",
+   "label": "per"
+  },
+  {
+   "fieldname": "igst",
+   "fieldtype": "Float",
+   "label": "IGST"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Employee Salary Details",
+   "link_fieldname": "account_holder"
+  }
+ ],
+ "modified": "2024-01-09 11:19:48.114363",
+ "modified_by": "Administrator",
+ "module": "hilltop_custom",
+ "name": "Sales Order For Jinja",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

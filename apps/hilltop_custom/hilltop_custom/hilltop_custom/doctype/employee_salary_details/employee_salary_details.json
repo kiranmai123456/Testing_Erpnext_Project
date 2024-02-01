@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EMP-.####",
+ "creation": "2024-01-06 17:35:53.580596",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_bn5f",
+  "date",
+  "station",
+  "org_name",
+  "emp_name",
+  "emp_designation",
+  "total_credits",
+  "column_break_1",
+  "account_holder",
+  "account_number",
+  "ifsc_code",
+  "branch",
+  "section_break_1",
+  "cto_sign",
+  "ceo_sign",
+  "emp_sign",
+  "stamp"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_bn5f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "station",
+   "fieldtype": "Data",
+   "label": "Station"
+  },
+  {
+   "fieldname": "org_name",
+   "fieldtype": "Data",
+   "label": "Organization Name"
+  },
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "emp_designation",
+   "fieldtype": "Data",
+   "label": "Employee Designation"
+  },
+  {
+   "fieldname": "total_credits",
+   "fieldtype": "Int",
+   "label": "Total Credits"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "account_holder",
+   "fieldtype": "Data",
+   "label": "Account Holder"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "ifsc_code",
+   "fieldtype": "Data",
+   "label": "IFSC Code"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cto_sign",
+   "fieldtype": "Data",
+   "label": "Signature of CEO"
+  },
+  {
+   "fieldname": "emp_sign",
+   "fieldtype": "Data",
+   "label": "Signature of Employee"
+  },
+  {
+   "fieldname": "stamp",
+   "fieldtype": "Data",
+   "label": "Organization Stamp"
+  },
+  {
+   "fieldname": "ceo_sign",
+   "fieldtype": "Data",
+   "label": "Signature of CTO"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-06 18:52:35.624043",
+ "modified_by": "Administrator",
+ "module": "hilltop_custom",
+ "name": "Employee Salary Details",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
